@@ -71,7 +71,7 @@
 				(pin passive line
 					(at -12.7 13.97 0)
 					(length 2.54)
-					(name "GND"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -89,7 +89,7 @@
 				(pin passive line
 					(at -12.7 11.43 0)
 					(length 2.54)
-					(name "D1"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -107,7 +107,7 @@
 				(pin passive line
 					(at -12.7 8.89 0)
 					(length 2.54)
-					(name "D2"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -125,7 +125,7 @@
 				(pin passive line
 					(at -12.7 6.35 0)
 					(length 2.54)
-					(name "GND"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -143,7 +143,7 @@
 				(pin passive line
 					(at -12.7 3.81 0)
 					(length 2.54)
-					(name "GND"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -303,16 +303,16 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -20.32 90)
+					(at -6.35 -20.32 90)
 					(length 2.54)
-					(name "GND"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "26"
+					(number "27"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -321,16 +321,16 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -20.32 90)
+					(at -3.81 -20.32 90)
 					(length 2.54)
-					(name "D1"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "25"
+					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -339,16 +339,16 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -20.32 90)
+					(at -1.27 -20.32 90)
 					(length 2.54)
-					(name "D2"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "24"
+					(number "29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -395,7 +395,7 @@
 				(pin passive line
 					(at 12.7 8.89 180)
 					(length 2.54)
-					(name "16"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -503,7 +503,7 @@
 				(pin passive line
 					(at 12.7 -6.35 180)
 					(length 2.54)
-					(name "GND"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -521,7 +521,7 @@
 				(pin passive line
 					(at 12.7 -8.89 180)
 					(length 2.54)
-					(name "GND"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -539,7 +539,7 @@
 				(pin passive line
 					(at 12.7 -11.43 180)
 					(length 2.54)
-					(name "D2"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -557,7 +557,7 @@
 				(pin passive line
 					(at 12.7 -13.97 180)
 					(length 2.54)
-					(name "D1"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -575,7 +575,7 @@
 				(pin passive line
 					(at 12.7 -16.51 180)
 					(length 2.54)
-					(name "GND"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -836,9 +836,31 @@
 			(embedded_fonts no)
 		)
 	)
-	(global_label "S1_P"
+	(global_label "S8"
 		(shape input)
-		(at 45.72 52.07 270)
+		(at 185.42 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02ef649d-2391-4e88-b7e6-697f9446d0bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.8242 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S10"
+		(shape input)
+		(at 160.02 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -846,9 +868,9 @@
 			)
 			(justify right)
 		)
-		(uuid "39e9faa9-131f-4273-8801-0e0816302832")
+		(uuid "095b2489-3bc8-405e-a24a-f769eb3797d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.72 59.7118 90)
+			(at 153.4063 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -858,9 +880,9 @@
 			)
 		)
 	)
-	(global_label "S1_P"
+	(global_label "S12"
 		(shape input)
-		(at 62.23 52.07 270)
+		(at 67.31 80.01 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -868,9 +890,1615 @@
 			)
 			(justify right)
 		)
-		(uuid "432dd897-f0e5-49e6-b8ad-d0ddea366ec3")
+		(uuid "1e847937-597d-4f08-9acf-d9fdb8fc4cc5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.23 59.7118 90)
+			(at 67.31 85.4142 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S10_R"
+		(shape input)
+		(at 160.02 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2134c30e-7210-485c-a53b-62b47b173db5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.1687 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S14"
+		(shape input)
+		(at 160.02 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "23c9d8c0-6367-4ce9-8550-fdce824ecd2a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.4063 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S16_R"
+		(shape input)
+		(at 53.34 163.83 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2709cf33-e5e0-4579-b0cb-27203f4a70b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.34 171.4718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S11_R"
+		(shape input)
+		(at 53.34 147.32 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27112bc1-19db-482d-97a3-aaab9d2aa3ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.34 154.9618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S9_R"
+		(shape input)
+		(at 185.42 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2944803a-1d5b-4792-a161-cff9bf3d8283")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.0618 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3"
+		(shape input)
+		(at 82.55 48.26 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2ad42bc9-4609-4487-b03c-dc94f13aa0af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.55 53.6642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S2_R"
+		(shape input)
+		(at 185.42 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2dbda88f-8fc8-40b4-9ae1-fd153f999341")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.0618 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S10_R"
+		(shape input)
+		(at 114.3 130.81 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f216397-dd01-45d7-b178-b0782f4708ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3 138.4518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S2"
+		(shape input)
+		(at 185.42 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "335b3487-d100-49a6-b7d7-8770b62d8e36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.8242 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S12_R"
+		(shape input)
+		(at 160.02 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36c70512-7e53-48b6-8398-67d014e8183a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.1687 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3"
+		(shape input)
+		(at 185.42 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37c933f5-1124-474f-88a7-a3c2fe664720")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.8242 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESET"
+		(shape input)
+		(at 185.42 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44db9913-9178-473d-a45f-31ca835ea55a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.1503 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S14"
+		(shape input)
+		(at 97.79 80.01 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "47cf2c68-074a-4f54-902c-ad0cd8d74b5f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.79 85.4142 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT"
+		(shape input)
+		(at 185.42 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c05d4f6-fb01-48c4-b2f9-9ad73a9215b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.82 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S13"
+		(shape input)
+		(at 82.55 80.01 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f131a0b-fabc-4147-83a6-eb5d4227da23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.55 85.4142 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S4_R"
+		(shape input)
+		(at 185.42 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "589f2c96-e6ae-4b89-becc-d9927f16bf2b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.0618 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S16_R"
+		(shape input)
+		(at 160.02 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5939163d-f9c2-4eee-9437-68eacf33ec64")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.1687 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S4_R"
+		(shape input)
+		(at 97.79 115.57 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d9298f7-e21b-41e7-92ee-70f96b1aacc3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.79 123.2118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_R"
+		(shape input)
+		(at 82.55 115.57 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66c36b0e-25c3-470d-a67e-0a00093f3bbb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.55 123.2118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S1_R"
+		(shape input)
+		(at 52.07 115.57 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6e699e6d-e836-4339-b8a7-d29be33e8d14")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.07 123.2118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S17_R"
+		(shape input)
+		(at 68.58 163.83 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73732ccf-72c6-40eb-b4f5-16fde9c1a7d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.58 171.4718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S17_R"
+		(shape input)
+		(at 160.02 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75557527-b994-4ebd-bb55-314f8ad7af2a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.1687 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S1_R"
+		(shape input)
+		(at 160.02 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b1cc149-2e6b-43bf-9778-8d8834c6433e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.3782 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S7_R"
+		(shape input)
+		(at 185.42 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7bf17562-ff65-429c-93bb-7618700268f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.0618 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S1"
+		(shape input)
+		(at 160.02 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c4ab136-fd38-4a30-8140-a20351590e7a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.6158 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT"
+		(shape input)
+		(at 185.42 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d2f44e1-7f61-4d5c-8958-be175c6b3680")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.82 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S16"
+		(shape input)
+		(at 160.02 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d3453c6-52d6-4cd6-a0c1-6b0be4993284")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.4063 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S5_R"
+		(shape input)
+		(at 113.03 115.57 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8115ac49-ba5a-406b-bfee-b4ededc8ae75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 123.2118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S15_R"
+		(shape input)
+		(at 160.02 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83c8324f-98cb-4a7e-8a34-eaefeb9a539e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.1687 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT"
+		(shape input)
+		(at 185.42 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84e7241a-5c3e-41f5-9120-6e4227c70151")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S9"
+		(shape input)
+		(at 97.79 63.5 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f8f6c3a-0984-46fe-8e0b-988566fe6ba1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.79 68.9042 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S14_R"
+		(shape input)
+		(at 99.06 147.32 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90063338-ecb9-41a5-be31-42c691d06a62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.06 154.9618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EXT_VCC"
+		(shape input)
+		(at 185.42 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91c96fd5-95e5-40cd-959b-e119082c8828")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.3275 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT"
+		(shape input)
+		(at 185.42 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "931e0d25-4c8a-42a9-bea4-c05ae74a62d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.82 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S7"
+		(shape input)
+		(at 185.42 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "960331cf-c277-4263-8cc7-efec762fe2c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.8242 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S8_R"
+		(shape input)
+		(at 185.42 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9ab41af9-36ee-4e4f-91a8-e7b8527c8f87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.0618 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S2_R"
+		(shape input)
+		(at 67.31 115.57 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9fd16b61-adb9-4581-a42f-c241f173ae89")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.31 123.2118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S5_R"
+		(shape input)
+		(at 185.42 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3660f07-e3df-4645-8683-fa9e626a7de9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.0618 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S12"
+		(shape input)
+		(at 160.02 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8c86f01-a827-4adc-bbf0-ee282b070c82")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.4063 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S15"
+		(shape input)
+		(at 160.02 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9804198-7b05-45d5-bc25-5e747e10f110")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.4063 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S17"
+		(shape input)
+		(at 113.03 96.52 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aee644d4-33ef-4c6f-a474-d4ed2544d622")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 101.9242 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S1"
+		(shape input)
+		(at 52.07 48.26 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3c90634-3c1e-4d82-ab7b-3143bb20b7db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.07 53.6642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S5"
+		(shape input)
+		(at 113.03 48.26 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b77e897b-b370-478c-9e98-7d3716029ddb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 53.6642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S2"
+		(shape input)
+		(at 67.31 48.26 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8748416-73de-478c-9268-e8d878bf4b55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.31 53.6642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S6_R"
+		(shape input)
+		(at 53.34 130.81 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0baeb9b-be3a-4498-bfe9-8dc4aae8322a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.34 138.4518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S7"
+		(shape input)
+		(at 67.31 63.5 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0d5b500-3511-4a7a-a065-044ecd78827b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.31 68.9042 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S9_R"
+		(shape input)
+		(at 99.06 130.81 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1b575eb-e2d1-459d-984f-c0e2c17d3c73")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.06 138.4518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S13_R"
+		(shape input)
+		(at 160.02 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4846307-159c-4fe7-b6de-a0c802c38d14")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.1687 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S6"
+		(shape input)
+		(at 52.07 63.5 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5caef36-eb6c-4ecd-9ea2-7366053948a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.07 68.9042 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S12_R"
+		(shape input)
+		(at 68.58 147.32 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c6a586b4-77b4-4297-9aab-6c17eb57b708")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.58 154.9618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S15"
+		(shape input)
+		(at 113.03 80.01 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cba260b8-6638-4805-91a2-8a6a67fdb8c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 85.4142 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S7_R"
+		(shape input)
+		(at 68.58 130.81 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d285b9d2-6248-49cd-b156-e685fe7192ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.58 138.4518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S14_R"
+		(shape input)
+		(at 160.02 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d77cbb66-800e-4921-a38c-b7628ce99eaf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.1687 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S5"
+		(shape input)
+		(at 185.42 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d89c53bc-5f5b-441d-b6b0-029ee3510af3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.8242 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESET"
+		(shape input)
+		(at 185.42 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d949f686-0acf-4321-8f48-9127f0cbeb71")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.1503 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S11"
+		(shape input)
+		(at 52.07 80.01 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "da1356aa-2849-4a9e-be51-cf0026d0e728")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.07 85.4142 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S15_R"
+		(shape input)
+		(at 114.3 147.32 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd1db756-e305-4df4-8d8c-06e7c61b0373")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3 154.9618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S13_R"
+		(shape input)
+		(at 83.82 147.32 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0ae1e29-8e47-4dfa-a1ca-fd871bfbfbd9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.82 154.9618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S8"
+		(shape input)
+		(at 82.55 63.5 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0b0efc5-c8af-441c-9c2d-fc80f69f236c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.55 68.9042 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S10"
+		(shape input)
+		(at 113.03 63.5 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e29673d3-d7fe-4c62-ae2e-db5a57b95993")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 68.9042 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S9"
+		(shape input)
+		(at 185.42 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5ec9005-ba39-4e14-92bd-2879bf786821")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.8242 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S13"
+		(shape input)
+		(at 160.02 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e685d3e0-d5b4-4d8d-8758-4ed40485921a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.4063 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EXT_VCC"
+		(shape input)
+		(at 185.42 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6c44907-3906-4eb7-85cf-1e9c3e586ccd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.3275 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S17"
+		(shape input)
+		(at 160.02 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8366d67-58e0-44dc-a2e6-4856d5c97a31")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.4063 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S16"
+		(shape input)
+		(at 97.79 96.52 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9744f39-103f-4927-a0c5-3c01cac43d67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.79 101.9242 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S6"
+		(shape input)
+		(at 185.42 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec9fd50d-4b8c-4fb3-b01b-72740ef254c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.8242 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S11"
+		(shape input)
+		(at 160.02 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee7f2c03-7672-48ad-850b-b4ab62cbb6af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.4063 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S4"
+		(shape input)
+		(at 185.42 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0e80aa9-acf2-4ed7-b69f-2885352366c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.8242 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S11_R"
+		(shape input)
+		(at 160.02 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f24cd9ed-6ae4-4359-a806-a00e179f615f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.1687 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S8_R"
+		(shape input)
+		(at 83.82 130.81 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f271de99-a6eb-4f50-80a2-7247e273f40f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.82 138.4518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S6_R"
+		(shape input)
+		(at 185.42 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f72f46a1-3038-404a-8cce-e8fe1b6429f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.0618 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S3_R"
+		(shape input)
+		(at 185.42 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fecdbe1a-887e-499b-a37c-796483d805e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.0618 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S4"
+		(shape input)
+		(at 97.79 48.26 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fed6c914-07c3-40f1-904e-2d656b1cbff3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.79 53.6642 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -882,16 +2510,15 @@
 	)
 	(symbol
 		(lib_id "Switches:Kailh_ChocV2_Switch")
-		(at 88.9 74.93 0)
+		(at 73.66 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "004a3eb1-024f-41da-bef7-5c0d2753d6c0")
-		(property "Reference" "Switch9"
-			(at 88.9 68.58 0)
+		(uuid "00b93242-ff01-4216-acbf-db35982f6a9e")
+		(property "Reference" "SwitchR_17"
+			(at 73.66 158.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -899,7 +2526,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 88.9 71.12 0)
+			(at 73.66 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -908,7 +2535,7 @@
 			)
 		)
 		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
-			(at 88.9 74.93 0)
+			(at 73.66 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -917,7 +2544,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 74.93 0)
+			(at 73.66 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -926,7 +2553,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 74.93 0)
+			(at 73.66 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -935,15 +2562,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a00cb915-d4a7-4341-9cab-301bdb6d817f")
+			(uuid "faccab13-4eac-4f3f-8be0-240f48942be6")
 		)
 		(pin "2"
-			(uuid "ee44b8d4-ec97-4379-b36e-971733c952a5")
+			(uuid "649d4f08-f635-44f5-8e26-8f1df4750448")
 		)
 		(instances
 			(project "Mau Keys"
 				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
-					(reference "Switch9")
+					(reference "SwitchR_17")
 					(unit 1)
 				)
 			)
@@ -951,16 +2578,15 @@
 	)
 	(symbol
 		(lib_id "Switches:Kailh_ChocV2_Switch")
-		(at 63.5 88.9 0)
+		(at 57.15 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c7a064d-4ab2-42b5-a69b-df09dbf3c702")
-		(property "Reference" "Switch12"
-			(at 63.5 82.55 0)
+		(uuid "03c58252-6386-4f08-9520-10a01b94e06e")
+		(property "Reference" "Switch11"
+			(at 57.15 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -968,7 +2594,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 63.5 85.09 0)
+			(at 57.15 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -977,7 +2603,7 @@
 			)
 		)
 		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
-			(at 63.5 88.9 0)
+			(at 57.15 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -986,7 +2612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 88.9 0)
+			(at 57.15 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -995,7 +2621,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 88.9 0)
+			(at 57.15 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1004,15 +2630,216 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e17e660-fb3f-485c-8881-3d0f11a02e14")
+			(uuid "ed401d51-c672-48ee-91c3-5f588fa2cbc8")
 		)
 		(pin "2"
-			(uuid "ee481865-8a8a-47d2-8268-3e035a2a8111")
+			(uuid "1868c98f-81f5-47ff-9bb9-dbe9842980c9")
 		)
 		(instances
 			(project "Mau Keys"
 				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
-					(reference "Switch12")
+					(reference "Switch11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 72.39 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0643aba7-ae7a-48b3-929a-07ed9b37d151")
+		(property "Reference" "Switch2"
+			(at 72.39 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 72.39 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 72.39 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b7784b7-ba7e-419c-a844-333840e4e4cc")
+		)
+		(pin "2"
+			(uuid "c5f7484f-fa86-467c-a230-6ddb3ed0ccfa")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "Switch2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "067b464c-0442-4ba3-99b4-64d38ae71299")
+		(property "Reference" "#PWR034"
+			(at 109.22 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4870197a-0aec-406e-9520-d9e38de38a6b")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 102.87 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0aaff62a-aa5c-4e9d-bcfe-b7468816efc2")
+		(property "Reference" "Switch14"
+			(at 102.87 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 102.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 102.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f3d3f8d-efc8-4a17-891a-6f2553691f06")
+		)
+		(pin "2"
+			(uuid "5e948b6b-1473-4934-950b-a81971b3fe24")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "Switch14")
 					(unit 1)
 				)
 			)
@@ -1087,6 +2914,543 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 62.23 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1965da49-4b61-4c13-934e-ca2a513d2d61")
+		(property "Reference" "#PWR014"
+			(at 62.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b17bcdfb-8199-439a-9913-bb628bbdbd84")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 102.87 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d5c5190-9c72-4ef1-a6bc-5301369a5a16")
+		(property "Reference" "Switch9"
+			(at 102.87 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 102.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a944c867-fe4f-423d-a40c-ac129d02bd0d")
+		)
+		(pin "2"
+			(uuid "c8d01b95-0989-4290-b285-9aee96b8d8a9")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "Switch9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e1c2158-91a1-4aee-ab44-e628dfaddb45")
+		(property "Reference" "#PWR030"
+			(at 124.46 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad83f55b-f296-4ce4-abe1-37c59e488f3d")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ed970a9-3c37-451f-bb6c-6f45f211eb2b")
+		(property "Reference" "#PWR028"
+			(at 93.98 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a318bb22-32ee-49a6-90c7-d585cd0c1a2e")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 57.15 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2645c560-0eee-411b-94fa-4823c93a109c")
+		(property "Reference" "Switch6"
+			(at 57.15 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 57.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 57.15 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97e3a345-3faf-4c85-a8ad-00b08b52a2d7")
+		)
+		(pin "2"
+			(uuid "5ca15d62-4556-4940-af03-cc02966d8c1f")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "Switch6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a49f2f5-2191-4d81-bc56-191afe0c61c4")
+		(property "Reference" "#PWR039"
+			(at 153.67 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a58f92a2-baf0-463c-8bc1-f3ad93113957")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 73.66 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b6db83f-b8c8-4d60-92a0-d1226c45cec3")
+		(property "Reference" "SwitchR_12"
+			(at 73.66 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 73.66 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20fda19a-7693-4251-97e0-90b01420ae9e")
+		)
+		(pin "2"
+			(uuid "17e38af0-b50b-4e89-9904-f1837f5b7be2")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "SwitchR_12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 73.66 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33bbc9a7-8812-4fdb-a84f-ce24404b4a5a")
+		(property "Reference" "SwitchR_7"
+			(at 73.66 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 73.66 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0140f667-e8a0-4431-81a5-b80e907b657d")
+		)
+		(pin "2"
+			(uuid "bbea4c47-e560-4ad0-ba08-5f05867e18f2")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "SwitchR_7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 160.02 53.34 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1153,25 +3517,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Switches:Kailh_ChocV2_Switch")
-		(at 101.6 88.9 0)
+		(lib_id "power:GND")
+		(at 92.71 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3b103875-47c7-43a3-81f9-cb1fd86a51d1")
-		(property "Reference" "Switch15"
-			(at 101.6 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 101.6 85.09 0)
+		(uuid "39612b62-682e-4822-8e29-68d8703c115a")
+		(property "Reference" "#PWR011"
+			(at 92.71 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1179,8 +3535,16 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
-			(at 101.6 88.9 0)
+		(property "Value" "GND"
+			(at 92.71 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1189,7 +3553,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 88.9 0)
+			(at 92.71 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1197,8 +3561,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 101.6 88.9 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1207,15 +3571,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "afe2ab23-7392-47cd-a843-85bdd0a730ef")
-		)
-		(pin "2"
-			(uuid "b7035485-9b57-4d78-b0e2-cccf22ed394f")
+			(uuid "592c25ea-79a5-40b1-ab4f-6c893a95b966")
 		)
 		(instances
 			(project "Mau Keys"
 				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
-					(reference "Switch15")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -1223,16 +3584,15 @@
 	)
 	(symbol
 		(lib_id "Switches:Kailh_ChocV2_Switch")
-		(at 50.8 52.07 0)
+		(at 57.15 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3b489e0c-d0fa-405b-884f-caa3234e4543")
 		(property "Reference" "Switch1"
-			(at 50.8 45.72 0)
+			(at 57.15 42.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1240,7 +3600,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 50.8 48.26 0)
+			(at 57.15 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1249,7 +3609,7 @@
 			)
 		)
 		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
-			(at 50.8 52.07 0)
+			(at 57.15 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1258,7 +3618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 52.07 0)
+			(at 57.15 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1267,7 +3627,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 52.07 0)
+			(at 57.15 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1282,7 +3642,7 @@
 			(uuid "519922ca-3e92-452a-9039-088f2ff9d274")
 		)
 		(instances
-			(project ""
+			(project "Mau Keys"
 				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
 					(reference "Switch1")
 					(unit 1)
@@ -1291,25 +3651,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Switches:Kailh_ChocV2_Switch")
-		(at 50.8 88.9 0)
+		(lib_id "power:GND")
+		(at 160.02 119.38 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "47590223-4c7b-4db1-9fe2-a4aaea1eaf20")
-		(property "Reference" "Switch11"
-			(at 50.8 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 50.8 85.09 0)
+		(uuid "3ca33748-9cd5-4468-be6f-c49af3e0946a")
+		(property "Reference" "#PWR040"
+			(at 153.67 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1317,8 +3669,17 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
-			(at 50.8 88.9 0)
+		(property "Value" "GND"
+			(at 156.21 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1327,7 +3688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 88.9 0)
+			(at 160.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1335,8 +3696,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 50.8 88.9 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1345,15 +3706,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f7e80f1a-11b1-4877-8bd8-e00df31bfe86")
-		)
-		(pin "2"
-			(uuid "63c83a43-2936-4bca-bac7-d3afca10de30")
+			(uuid "9597fa7a-cfb1-4128-827d-def786a691ce")
 		)
 		(instances
 			(project "Mau Keys"
 				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
-					(reference "Switch11")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -1361,16 +3719,15 @@
 	)
 	(symbol
 		(lib_id "Switches:Kailh_ChocV2_Switch")
-		(at 76.2 88.9 0)
+		(at 104.14 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54b8b623-2b18-4de5-b97f-07839895c838")
-		(property "Reference" "Switch13"
-			(at 76.2 82.55 0)
+		(uuid "42ac2009-d936-4720-8b8a-a2f99573e31d")
+		(property "Reference" "SwitchR_9"
+			(at 104.14 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1378,7 +3735,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 76.2 85.09 0)
+			(at 104.14 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1387,7 +3744,7 @@
 			)
 		)
 		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
-			(at 76.2 88.9 0)
+			(at 104.14 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1396,7 +3753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 88.9 0)
+			(at 104.14 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,7 +3762,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 88.9 0)
+			(at 104.14 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1414,15 +3771,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c496ae48-9331-4a24-831c-e6bd3a6d01e5")
+			(uuid "661fea1e-ecee-4b1c-acee-5dd26ff80ecb")
 		)
 		(pin "2"
-			(uuid "35a8e5e1-081e-4b64-a70a-c8974d963e7f")
+			(uuid "248feba9-cc87-43a9-950c-8a58fe1b405f")
 		)
 		(instances
 			(project "Mau Keys"
 				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
-					(reference "Switch13")
+					(reference "SwitchR_9")
 					(unit 1)
 				)
 			)
@@ -1430,16 +3787,15 @@
 	)
 	(symbol
 		(lib_id "Switches:Kailh_ChocV2_Switch")
-		(at 101.6 102.87 0)
+		(at 119.38 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5cec7a27-a76d-4b60-b59b-b3a0f6cb90d5")
-		(property "Reference" "Switch17"
-			(at 101.6 96.52 0)
+		(uuid "44fb6f16-66d3-4751-a4fc-b63aa75fde6f")
+		(property "Reference" "SwitchR_10"
+			(at 119.38 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1447,7 +3803,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 101.6 99.06 0)
+			(at 119.38 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1456,7 +3812,7 @@
 			)
 		)
 		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
-			(at 101.6 102.87 0)
+			(at 119.38 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1465,7 +3821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 102.87 0)
+			(at 119.38 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1474,7 +3830,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 102.87 0)
+			(at 119.38 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1483,15 +3839,545 @@
 			)
 		)
 		(pin "1"
-			(uuid "4aeb49f2-a9aa-450d-870d-e56a63f66c4e")
+			(uuid "5652ebe3-c0bd-4bbc-b372-120d9ffc7195")
 		)
 		(pin "2"
-			(uuid "6bf6c915-b082-4d45-a6a5-13f444737424")
+			(uuid "2a86e08d-2834-4549-b5b0-c73191086ba6")
 		)
 		(instances
 			(project "Mau Keys"
 				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
-					(reference "Switch17")
+					(reference "SwitchR_10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 102.87 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a96f208-3bb4-4d83-a242-58b5d57fa6fc")
+		(property "Reference" "Switch4"
+			(at 102.87 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 102.87 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 102.87 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa37f9ed-ad1d-4875-94cc-d83f61f248fa")
+		)
+		(pin "2"
+			(uuid "59d6fe10-af56-47d5-95e8-54a06fffeea9")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "Switch4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 119.38 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b74ff01-d37c-4543-b4cf-6794c65fee8f")
+		(property "Reference" "SwitchR_15"
+			(at 119.38 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 119.38 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 119.38 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b52e19a9-dbe4-4299-b184-843466fa873f")
+		)
+		(pin "2"
+			(uuid "19e35308-02cb-4786-9243-6e9dffd7820f")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "SwitchR_15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c81e3f9-d201-4a86-b135-af8ffec45c9f")
+		(property "Reference" "#PWR020"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a0e1767-8b0c-42e9-93c8-bc8959a8f49c")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cd48f8d-063e-4ea8-9709-8340b06e49a9")
+		(property "Reference" "#PWR031"
+			(at 63.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "357c9872-fcf0-4389-95dc-f37dbc85568d")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4dad5925-1235-4b47-87d5-e2d61b495b97")
+		(property "Reference" "#PWR037"
+			(at 78.74 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c535054d-d69f-467d-9594-7eb70670d44d")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4eabb092-462f-4427-9a7c-6e2b52c2441f")
+		(property "Reference" "#PWR08"
+			(at 123.19 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "522fdd10-09b6-4841-b515-7e7433622e42")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53f59eca-a065-410d-850c-372a93e0084e")
+		(property "Reference" "#PWR019"
+			(at 107.95 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f242038-c212-4899-a4c4-9810c633ac9c")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63756cad-eeba-4214-9780-5f7000e8e6ed")
+		(property "Reference" "#PWR017"
+			(at 107.95 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f7cd614-ddaf-4b8b-8f07-2ad1723353ad")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -1565,25 +4451,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Switches:Kailh_ChocV2_Switch")
-		(at 101.6 74.93 0)
+		(lib_id "power:GND")
+		(at 62.23 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "780809d5-fc0b-498e-b03f-f544a19c8b90")
-		(property "Reference" "Switch10"
-			(at 101.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 101.6 71.12 0)
+		(uuid "6986dc81-6aa1-4520-965b-30d5711144ec")
+		(property "Reference" "#PWR021"
+			(at 62.23 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1591,8 +4468,16 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
-			(at 101.6 74.93 0)
+		(property "Value" "GND"
+			(at 62.23 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,7 +4486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 74.93 0)
+			(at 62.23 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1609,8 +4494,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 101.6 74.93 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1619,15 +4504,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "e40f8d26-bbef-4111-ade2-40140e62e64e")
-		)
-		(pin "2"
-			(uuid "71be084b-1079-4544-b355-575b01e96ce1")
+			(uuid "ea029866-616a-4671-8325-f8049d9ce670")
 		)
 		(instances
 			(project "Mau Keys"
 				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
-					(reference "Switch10")
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69b2e5f4-b6dd-4a76-8965-47c753eb8885")
+		(property "Reference" "#PWR06"
+			(at 92.71 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df9a5790-ed07-46b0-a28f-69852e5398a1")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -1635,16 +4583,15 @@
 	)
 	(symbol
 		(lib_id "Switches:Kailh_ChocV2_Switch")
-		(at 88.9 102.87 0)
+		(at 88.9 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81de60a9-3d14-41be-8c84-576fdb817007")
-		(property "Reference" "Switch16"
-			(at 88.9 96.52 0)
+		(uuid "700ca4ae-9015-420b-a1d8-fd02d10bf347")
+		(property "Reference" "SwitchR_8"
+			(at 88.9 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1652,7 +4599,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 88.9 99.06 0)
+			(at 88.9 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1661,7 +4608,7 @@
 			)
 		)
 		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
-			(at 88.9 102.87 0)
+			(at 88.9 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1670,7 +4617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 102.87 0)
+			(at 88.9 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1679,7 +4626,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 102.87 0)
+			(at 88.9 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1688,10 +4635,1078 @@
 			)
 		)
 		(pin "1"
-			(uuid "4df67a73-1f08-4550-aa46-859a2c91f650")
+			(uuid "28856621-60a0-46cf-9961-e29b85ebfa50")
 		)
 		(pin "2"
-			(uuid "16466f86-b521-4390-be69-dfd2500f693e")
+			(uuid "5518b325-63ff-4223-a22d-19609f2afa41")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "SwitchR_8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 72.39 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "765b0b98-12b2-407d-bd6c-be3f88140a10")
+		(property "Reference" "Switch12"
+			(at 72.39 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 72.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 72.39 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc058cc5-8c18-4b35-8477-dc177d1725ff")
+		)
+		(pin "2"
+			(uuid "bae7322d-4781-411d-9609-73019e0b1953")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "Switch12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78c2ad02-5a56-4800-9421-7b49f12a4b46")
+		(property "Reference" "#PWR027"
+			(at 78.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae0d681c-0706-468a-a8f3-245e23536177")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 104.14 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c4da2cc-7992-452f-bf5d-b058f691c682")
+		(property "Reference" "SwitchR_14"
+			(at 104.14 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 104.14 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 104.14 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d64f7aee-43aa-42cc-b372-0069a3da0235")
+		)
+		(pin "2"
+			(uuid "a789149c-bd2c-4ca5-8181-19b5e378d8f7")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "SwitchR_14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 72.39 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7cbf6b5c-e389-4665-9b2e-b7802a170c61")
+		(property "Reference" "Switch7"
+			(at 72.39 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 72.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 72.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0208340-5b3d-4ab5-bd99-04a75adb3530")
+		)
+		(pin "2"
+			(uuid "f0ef094a-879e-4be6-8311-0634b0b45a73")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "Switch7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7cdad946-c5dd-4247-8f86-fad8a34f14da")
+		(property "Reference" "#PWR035"
+			(at 124.46 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdbad459-d0ff-4305-859e-a6d99101af08")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81140efc-ad8b-448f-8d50-9f1135953f50")
+		(property "Reference" "#PWR024"
+			(at 107.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f72af46-9218-4d3a-87ec-b46003a68895")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 58.42 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83b44615-5b9c-4227-b44b-67e6e7f72d1c")
+		(property "Reference" "SwitchR_16"
+			(at 58.42 158.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 58.42 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 58.42 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f037f7cf-4898-4c1d-9c38-2f2b2f0d2cd0")
+		)
+		(pin "2"
+			(uuid "1881a836-7c5b-41ec-927b-0702e67b61e0")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "SwitchR_16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89ba501b-1669-4c31-ac9b-4d4a0a13c0dc")
+		(property "Reference" "#PWR018"
+			(at 123.19 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1be32f8-7903-420a-9007-a469a7f00878")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 58.42 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9257e853-95f5-45f9-9772-03798afeee78")
+		(property "Reference" "SwitchR_11"
+			(at 58.42 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 58.42 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 58.42 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4cad526-8df3-497c-98aa-cc38843118a3")
+		)
+		(pin "2"
+			(uuid "703a3925-a8bb-4efe-8f18-3c2c05eb61c1")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "SwitchR_11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99489284-2abe-4aab-931c-12baeaab74a3")
+		(property "Reference" "#PWR023"
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddbb1c9d-151b-4f1c-a2c5-6885e6767b6a")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a0072f1-4a63-4f5d-bb4a-e585d8e8d8fa")
+		(property "Reference" "#PWR025"
+			(at 123.19 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f90e8816-60cb-4ef1-9544-b0413deaf3c7")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b8ed544-9357-40ae-b367-990e4b4e8de6")
+		(property "Reference" "#PWR029"
+			(at 109.22 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b06269f3-8201-420f-a28d-8564ca7fd2d1")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 87.63 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c254746-9784-4f51-be86-118b7fd65e70")
+		(property "Reference" "SwitchR_3"
+			(at 87.63 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 87.63 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 87.63 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b10baaab-1834-407e-929a-f45d112424d8")
+		)
+		(pin "2"
+			(uuid "8d8809e5-2a0d-433d-8432-a54e5d50cd4e")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "SwitchR_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f7bc358-bc8f-456c-82fe-373e030dcd7a")
+		(property "Reference" "#PWR013"
+			(at 123.19 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d08ded2-6009-476f-b144-ce088e5dc7e1")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 118.11 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a921ddd3-f5ea-4785-bf58-a4496cd90194")
+		(property "Reference" "SwitchR_5"
+			(at 118.11 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 118.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b80eaf9d-4653-4e03-9d69-2ae91c04d98d")
+		)
+		(pin "2"
+			(uuid "c291b0d1-351b-403f-a865-527eb0a305fb")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "SwitchR_5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 102.87 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aad327f2-d6ea-4570-b0b1-ebb520585f3a")
+		(property "Reference" "Switch16"
+			(at 102.87 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 102.87 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 102.87 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a281a60e-7652-44bb-a843-88d0dc5c9caa")
+		)
+		(pin "2"
+			(uuid "7c91ba8c-8c72-4a5a-9489-6f02827f763a")
 		)
 		(instances
 			(project "Mau Keys"
@@ -1703,35 +5718,33 @@
 		)
 	)
 	(symbol
-		(lib_id "MCC NNV2:NNano_v2")
-		(at 166.37 52.07 0)
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 72.39 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b23aa8ac-68e0-4e36-a007-2b7e385af15e")
-		(property "Reference" "NNV2"
-			(at 163.576 52.07 0)
+		(uuid "ad85c9b6-7ea6-4afa-8ca4-4001d33eb7f2")
+		(property "Reference" "SwitchR_2"
+			(at 72.39 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "~"
-			(at 177.8 64.77 0)
+			(at 72.39 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 166.37 52.07 0)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 72.39 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1740,7 +5753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 52.07 0)
+			(at 72.39 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1749,7 +5762,276 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 52.07 0)
+			(at 72.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dda8e77-3cd3-428b-b20f-a469c4715617")
+		)
+		(pin "2"
+			(uuid "f35bebb1-3193-4808-8347-a0524c6e189a")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "SwitchR_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ade9122b-f22f-47a8-ae7e-28757d04cb91")
+		(property "Reference" "#PWR038"
+			(at 191.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4485309d-83f3-4e3f-89fb-c234eb4864e8")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 87.63 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af05ac08-0e77-4ff9-a49f-94964d381ae7")
+		(property "Reference" "Switch3"
+			(at 87.63 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 87.63 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 87.63 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "636e5631-4b43-495b-87b5-fe236926262b")
+		)
+		(pin "2"
+			(uuid "53bb4b2c-f8b6-488c-97f3-9e3e9f2a16bb")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "Switch3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af2845b1-77ef-4024-98dc-f173728fbdd2")
+		(property "Reference" "#PWR032"
+			(at 78.74 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b167abf-4262-464b-b2ee-594ca9919f75")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCC NNV2:NNano_v2")
+		(at 172.72 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b23aa8ac-68e0-4e36-a007-2b7e385af15e")
+		(property "Reference" "NNV2"
+			(at 169.926 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 184.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Microcontroller:nice_nano"
+			(at 172.72 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1829,10 +6111,10 @@
 		(pin "24"
 			(uuid "4f538198-b9fa-4cbc-aafd-76cfff0dc656")
 		)
-		(pin "24"
+		(pin "28"
 			(uuid "23463765-492d-4cec-b40f-11009523bce4")
 		)
-		(pin "25"
+		(pin "29"
 			(uuid "6062ba57-1a4f-458c-b255-d844ab86e53a")
 		)
 		(pin "25"
@@ -1841,7 +6123,7 @@
 		(pin "26"
 			(uuid "105ae825-d38d-46a4-9ca0-55b87ea1f08d")
 		)
-		(pin "26"
+		(pin "27"
 			(uuid "ded8518b-3f1b-4149-831d-e6ca61a16e5d")
 		)
 		(instances
@@ -1854,17 +6136,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Switches:Kailh_ChocV2_Switch")
-		(at 88.9 88.9 0)
+		(lib_id "MCC NNV2:NNano_v2")
+		(at 172.72 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b783a90d-c70c-4ad8-83ef-f418958335ea")
-		(property "Reference" "Switch14"
-			(at 88.9 82.55 0)
+		(uuid "b24265bc-4f6d-4879-a78c-ab4908e5c137")
+		(property "Reference" "NNV2_R1"
+			(at 172.72 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1872,16 +6154,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 88.9 85.09 0)
+			(at 172.72 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
-			(at 88.9 88.9 0)
+		(property "Footprint" "Microcontroller:nice_nano"
+			(at 172.72 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1890,7 +6171,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 88.9 0)
+			(at 172.72 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1899,7 +6180,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 88.9 0)
+			(at 172.72 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,15 +6189,228 @@
 			)
 		)
 		(pin "1"
-			(uuid "5568f7c0-d10c-4fe1-a7aa-703f383db280")
+			(uuid "ba92ee81-ef5f-48b1-b9f7-8d914b226679")
 		)
 		(pin "2"
-			(uuid "808055c9-fce0-4b12-8c5b-2aee99683a00")
+			(uuid "e5e95790-50af-4c64-80b6-0a411d45ccff")
+		)
+		(pin "5"
+			(uuid "2437a42c-8acd-4aaf-9bfb-5e65635a1999")
+		)
+		(pin "3"
+			(uuid "f3243bfe-3d10-4a5a-8a09-37e399625e77")
+		)
+		(pin "4"
+			(uuid "b2fa0e36-9d33-447c-bbee-145b1be72260")
+		)
+		(pin "12"
+			(uuid "296b417a-7a35-4791-afa1-e1d1286f6728")
+		)
+		(pin "13"
+			(uuid "d0a95297-0865-4ecd-a099-1414fff102db")
+		)
+		(pin "14"
+			(uuid "ad514ac1-4a3b-423b-998c-137fe6156350")
+		)
+		(pin "15"
+			(uuid "b6852888-3580-4f86-8cce-0f890c6d704b")
+		)
+		(pin "16"
+			(uuid "6a12bf3d-86d4-4187-aca6-a963692d6248")
+		)
+		(pin "17"
+			(uuid "d74782f9-1233-4e24-b6d2-2969b7ddc91f")
+		)
+		(pin "18"
+			(uuid "f12ea575-63c4-4014-b119-88f6a92494b4")
+		)
+		(pin "19"
+			(uuid "e1f6347e-4b09-4ff4-a09a-47b18e139e0c")
+		)
+		(pin "6"
+			(uuid "9d8d4f80-bd00-4554-9ecb-24cf4203da0e")
+		)
+		(pin "7"
+			(uuid "7690d4ef-21b4-4544-b2b0-7daa442b93d7")
+		)
+		(pin "8"
+			(uuid "4ca1e4f4-aa02-4bf2-9eeb-78372e33cbb0")
+		)
+		(pin "9"
+			(uuid "26caf1f1-ebc9-47f1-9939-679327697bdf")
+		)
+		(pin "10"
+			(uuid "36cc9833-7eaf-437e-8814-3769cbc706f3")
+		)
+		(pin "11"
+			(uuid "05934dee-4933-4bc1-b2b9-c2a26b64e63f")
+		)
+		(pin "20"
+			(uuid "a496ef3a-8788-4b4e-b98f-bc2b98c19143")
+		)
+		(pin "21"
+			(uuid "6505d8b7-6236-4505-8d4c-08996c3aaf5a")
+		)
+		(pin "22"
+			(uuid "ee9a9eca-e97d-41f2-919c-ab054eb22b97")
+		)
+		(pin "23"
+			(uuid "27661196-45b5-42ec-96b9-a49949cd0534")
+		)
+		(pin "24"
+			(uuid "c1d52ab6-2a93-49f6-9518-56f5c5e88c67")
+		)
+		(pin "28"
+			(uuid "41842ef2-8087-4721-9f48-54cb5d0f8e35")
+		)
+		(pin "29"
+			(uuid "5fd81d41-e462-4442-afe5-fe6edae29a48")
+		)
+		(pin "25"
+			(uuid "4b065bef-8bac-4693-8f0b-19b6064433ac")
+		)
+		(pin "26"
+			(uuid "722bf4e6-9987-427b-83ae-12bc31380a12")
+		)
+		(pin "27"
+			(uuid "e645d2b1-870e-4c39-84c8-1e32305ebcdf")
 		)
 		(instances
 			(project "Mau Keys"
 				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
-					(reference "Switch14")
+					(reference "NNV2_R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4f0d814-e40d-429c-8c59-569de461be5d")
+		(property "Reference" "#PWR016"
+			(at 92.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "caf37d36-7708-42ea-b718-2a50a145c9c0")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b56a7f70-f45f-473d-8dc1-ed8729839285")
+		(property "Reference" "#PWR07"
+			(at 107.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "583849db-92b6-4fd5-a6cb-b466dd974895")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -1924,16 +6418,15 @@
 	)
 	(symbol
 		(lib_id "Switches:Kailh_ChocV2_Switch")
-		(at 76.2 74.93 0)
+		(at 57.15 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bed8ba15-a31d-46e2-a05c-0a159ff24c6e")
-		(property "Reference" "Switch8"
-			(at 76.2 68.58 0)
+		(uuid "b9de8986-7f15-4079-bcb6-b68282aee92a")
+		(property "Reference" "SwitchR_1"
+			(at 57.15 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1941,7 +6434,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 76.2 71.12 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1950,7 +6443,7 @@
 			)
 		)
 		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
-			(at 76.2 74.93 0)
+			(at 57.15 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1959,7 +6452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 74.93 0)
+			(at 57.15 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1968,7 +6461,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 74.93 0)
+			(at 57.15 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1977,10 +6470,879 @@
 			)
 		)
 		(pin "1"
-			(uuid "6d89194e-fa1e-42f5-8dfc-0bf80bbf5f6a")
+			(uuid "004f1177-7ce8-4d3a-8459-7255fcfd012d")
 		)
 		(pin "2"
-			(uuid "5b956809-c10c-4e13-b205-968cfae4ebd6")
+			(uuid "e8880ea0-7ff0-4f28-879f-4808b8b5a179")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "SwitchR_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bceca660-db8c-4593-a998-ed6d68aedf9a")
+		(property "Reference" "#PWR041"
+			(at 153.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d74b1084-3cd6-4e4d-a17a-0386e3d09f03")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 87.63 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c01fa502-a1cc-4c8c-a673-e02749e208ae")
+		(property "Reference" "Switch13"
+			(at 87.63 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 87.63 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 87.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0ddfcfb-2671-4007-849b-1f8963526553")
+		)
+		(pin "2"
+			(uuid "f6921566-2631-4410-8c1a-44346539eb40")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "Switch13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c142d7a8-03c8-4966-8fd5-fdebc218d5d0")
+		(property "Reference" "#PWR012"
+			(at 107.95 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a5709bd-98de-42f8-9474-f5467cb93690")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 118.11 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3f1caca-f792-4da0-833f-0dfb93bcfcd9")
+		(property "Reference" "Switch15"
+			(at 118.11 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 118.11 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "594be5a1-64f7-4259-af94-c2dcea24f6b3")
+		)
+		(pin "2"
+			(uuid "3328cacd-ba81-41c5-9596-b47b7a7021c5")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "Switch15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 58.42 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd996009-0277-44c5-8353-010fbafa5ec6")
+		(property "Reference" "SwitchR_6"
+			(at 58.42 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 58.42 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 58.42 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fcb48fb-5393-4d2d-83ff-4062f49bb29e")
+		)
+		(pin "2"
+			(uuid "a5a52e2d-cf23-4a08-a741-5059af0f121e")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "SwitchR_6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d31917bb-b269-4dc4-9386-b0ebca73c670")
+		(property "Reference" "#PWR026"
+			(at 63.5 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dab30b81-511d-47ff-a6c2-4daf1e0e989d")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 118.11 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d81d697c-fca2-42a3-89c3-891df0bf259d")
+		(property "Reference" "Switch5"
+			(at 118.11 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 118.11 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 118.11 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fea23c15-145d-4bbd-99f5-cf5597a07a5a")
+		)
+		(pin "2"
+			(uuid "e4533cf8-29ac-4f28-99d1-83a129cfc8c4")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "Switch5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9109e8b-fb3b-4d58-a676-875e6988aaa6")
+		(property "Reference" "#PWR010"
+			(at 77.47 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ae0f8d5-0c9d-49bb-9b84-d445c776a751")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 118.11 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0c2b203-2f5d-4419-b673-134f83435757")
+		(property "Reference" "Switch17"
+			(at 118.11 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 118.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d40bffab-2c34-4282-985c-dca947aa4fc4")
+		)
+		(pin "2"
+			(uuid "ad90e1d7-2f2b-471c-ade7-8dc3a543a4f2")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "Switch17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb22dd5e-696b-4823-b969-3de0f4fbb097")
+		(property "Reference" "#PWR033"
+			(at 93.98 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "719574e3-b01d-4d73-83bc-f20f51195f02")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eebf0880-201d-4d3c-94a3-9b6ab260a4a1")
+		(property "Reference" "#PWR022"
+			(at 77.47 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a5ed78e-a00c-4d43-9268-f3976b20cd6c")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f076fdbc-faa5-43dd-a749-46f7d250d729")
+		(property "Reference" "#PWR09"
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.23 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41e4e71e-e5f3-469f-b1db-24c3a79c6506")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 87.63 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f088feb1-cfc5-4755-9a43-52c03ef1ac4e")
+		(property "Reference" "Switch8"
+			(at 87.63 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 87.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 87.63 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d4ea85a-1222-4a1d-baed-f78818d5423d")
+		)
+		(pin "2"
+			(uuid "5026e9ee-b168-439c-8925-d69aa2505564")
 		)
 		(instances
 			(project "Mau Keys"
@@ -1992,281 +7354,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switches:Kailh_ChocV2_Switch")
-		(at 67.31 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc28b06d-5767-4e70-a5e5-12bf7fe1d25a")
-		(property "Reference" "Switch2"
-			(at 67.31 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 67.31 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
-			(at 67.31 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a25b002b-b7cd-4a24-8d84-56e31a21e3cc")
-		)
-		(pin "2"
-			(uuid "c45fc758-79dc-44d2-ab34-e48245e22229")
-		)
-		(instances
-			(project "Mau Keys"
-				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
-					(reference "Switch2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switches:Kailh_ChocV2_Switch")
-		(at 50.8 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d61cab39-4d39-4cea-9213-b6f4e4e27e6e")
-		(property "Reference" "Switch6"
-			(at 50.8 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 50.8 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
-			(at 50.8 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5dc7f4ce-68f5-438e-9d49-28b649b27f64")
-		)
-		(pin "2"
-			(uuid "c69b9957-ef13-42f9-b156-87904c0acb46")
-		)
-		(instances
-			(project "Mau Keys"
-				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
-					(reference "Switch6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 72.39 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e21facb9-cefd-4994-b01c-ee9abe786472")
-		(property "Reference" "#PWR05"
-			(at 72.39 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.39 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b8bb944c-d0e0-4116-9ee8-c258de49346b")
-		)
-		(instances
-			(project "Mau Keys"
-				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switches:Kailh_ChocV2_Switch")
-		(at 63.5 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6b9ebfc-769a-43ea-9b58-fcc74e99a4e5")
-		(property "Reference" "Switch7"
-			(at 63.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 63.5 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
-			(at 63.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ce3aecb-4b8d-4d4b-9507-a3a9e6dd1ffd")
-		)
-		(pin "2"
-			(uuid "93ea724e-6b96-45fd-92ee-04d6116556b3")
-		)
-		(instances
-			(project "Mau Keys"
-				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
-					(reference "Switch7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 55.88 52.07 0)
+		(at 62.23 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2275,7 +7364,7 @@
 		(fields_autoplaced yes)
 		(uuid "f25e6cfc-43e4-4808-9b4d-2f08a80d8be9")
 		(property "Reference" "#PWR04"
-			(at 55.88 58.42 0)
+			(at 62.23 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2284,7 +7373,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 57.15 0)
+			(at 62.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2292,7 +7381,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 52.07 0)
+			(at 62.23 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2301,7 +7390,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 52.07 0)
+			(at 62.23 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2310,7 +7399,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 52.07 0)
+			(at 62.23 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2325,6 +7414,474 @@
 			(project "Mau Keys"
 				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2712c4b-8a9f-46e2-b55e-5aa8026985be")
+		(property "Reference" "#PWR015"
+			(at 77.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e6bf98b-0cb6-46a4-b5ff-3ce36d79cc80")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 88.9 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5867d25-09be-4bc5-a2a6-faedaf7c62bc")
+		(property "Reference" "SwitchR_13"
+			(at 88.9 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 88.9 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 88.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38082863-b218-45e8-9fe7-ae7049814a58")
+		)
+		(pin "2"
+			(uuid "e8eac626-a533-47ed-8227-0771ca55b3f8")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "SwitchR_13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5a67d20-b849-4b1b-b448-ea93d48b28b4")
+		(property "Reference" "#PWR042"
+			(at 191.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df3a45d1-581f-4bc2-9f53-02677c366a5e")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5dcc842-59c5-441d-8a1d-406f99f6b50f")
+		(property "Reference" "#PWR05"
+			(at 77.47 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78454b33-9dba-4dfc-a0b1-3cd5a60ca142")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 102.87 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe72dc67-4bba-499e-b64e-798afdc7c95d")
+		(property "Reference" "SwitchR_4"
+			(at 102.87 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 102.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 102.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cae9144f-83b8-4aeb-8831-00f869f7965b")
+		)
+		(pin "2"
+			(uuid "404b6796-e456-43fe-87ab-c40a12d259b7")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "SwitchR_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff3fd1a4-fbfc-40bb-a547-90ebb2e4bf15")
+		(property "Reference" "#PWR036"
+			(at 63.5 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89abca2d-f6a0-4fde-a5a7-6a54f6abdc4f")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switches:Kailh_ChocV2_Switch")
+		(at 118.11 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffde12b3-25a5-4eac-8057-50ce89f44423")
+		(property "Reference" "Switch10"
+			(at 118.11 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 118.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Switches:keyswitch_cherrymx_alps_choc12_slots_1u"
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e853aa98-7b28-4e90-a8c3-35931dd4364d")
+		)
+		(pin "2"
+			(uuid "0f02aafc-c2ce-4351-8095-69f98fa7d0bd")
+		)
+		(instances
+			(project "Mau Keys"
+				(path "/7081a426-693d-4699-89ee-0256d5b76d96"
+					(reference "Switch10")
 					(unit 1)
 				)
 			)
