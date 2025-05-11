@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Switches")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/Switches.kicad_sym")(options "")(descr ""))
   (lib (name "MCC NNV2")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/MCC NNV2.kicad_sym")(options "")(descr ""))
+  (lib (name "slider_switch")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/slider_switch.kicad_sym")(options "")(descr ""))
 )
