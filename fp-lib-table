@@ -3,4 +3,5 @@
   (lib (name "Switches")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/Switches.pretty")(options "")(descr ""))
   (lib (name "Microcontroller")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/Microcontroller.pretty")(options "")(descr ""))
   (lib (name "reset")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/reset.pretty")(options "")(descr ""))
+  (lib (name "graphics")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/logos.pretty")(options "")(descr ""))
 )
