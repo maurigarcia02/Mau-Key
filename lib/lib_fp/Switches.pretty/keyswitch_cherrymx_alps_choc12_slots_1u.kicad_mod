@@ -53,26 +53,6 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -9.525 -9.525)
-		(end 9.525 -9.525)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "88d46838-419a-44e9-b8bf-159793a4eef1")
-	)
-	(fp_line
-		(start -9.525 9.525)
-		(end -9.525 -9.525)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "87d4d222-5ca3-47e2-b3ec-c1d748f9539b")
-	)
-	(fp_line
 		(start -7 -7)
 		(end -6 -7)
 		(stroke
@@ -112,29 +92,20 @@
 		(layer "Dwgs.User")
 		(uuid "c70ec9ef-0767-42eb-b7e6-149524b9cd5f")
 	)
-	(fp_line
-		(start 9.525 -9.525)
-		(end 9.525 9.525)
+	(fp_rect
+		(start -9.5 -9.5)
+		(end 9.5 9.5)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type solid)
 		)
+		(fill no)
 		(layer "Dwgs.User")
-		(uuid "4a08fc6c-c820-4d4d-9ad3-8e40ffc37098")
+		(uuid "6c9dc682-a6a2-4e00-b1fe-8c1196dde367")
 	)
 	(fp_line
-		(start 9.525 9.525)
-		(end -9.525 9.525)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "0f0c641a-b0a0-4df7-ad54-eb109545024e")
-	)
-	(fp_line
-		(start -5.1 1)
-		(end -5.1 -1)
+		(start -5.3 1)
+		(end -5.3 -1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -143,8 +114,8 @@
 		(uuid "6402ccc7-3091-4ade-8476-6f31ee1ffca8")
 	)
 	(fp_line
-		(start 4.6 -1.5)
-		(end -4.599999 -1.5)
+		(start 4.8 -1.5)
+		(end -4.799999 -1.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -153,8 +124,8 @@
 		(uuid "5ce93517-f727-4bf4-bdd2-fff6517b433b")
 	)
 	(fp_line
-		(start 4.6 1.5)
-		(end -4.6 1.499999)
+		(start 4.8 1.5)
+		(end -4.8 1.499999)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -163,8 +134,8 @@
 		(uuid "8d9a835f-9910-4b77-8752-6d081117d678")
 	)
 	(fp_line
-		(start 5.1 -1)
-		(end 5.1 1)
+		(start 5.3 -1)
+		(end 5.3 1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -173,9 +144,20 @@
 		(uuid "23f68c72-8c3f-4d49-b043-c105d7fb1392")
 	)
 	(fp_arc
-		(start -5.1 -1)
-		(mid -4.953553 -1.353553)
-		(end -4.6 -1.5)
+		(start -5.3 -1)
+		(mid -5.153553 -1.353553)
+		(end -4.8 -1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7ba66c22-0691-43f6-87a1-73b390e923fe")
+	)
+	(fp_arc
+		(start -4.800001 1.500001)
+		(mid -5.153554 1.353554)
+		(end -5.300001 1.000001)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -184,20 +166,9 @@
 		(uuid "8de49d9b-7972-409e-baa9-9ab7d60d4cdb")
 	)
 	(fp_arc
-		(start -4.6 1.5)
-		(mid -4.953553 1.353553)
-		(end -5.1 1)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "b0757c37-31e9-42ad-a2bb-8934913974a8")
-	)
-	(fp_arc
-		(start 4.6 -1.5)
-		(mid 4.953553 -1.353553)
-		(end 5.1 -1)
+		(start 4.8 -1.5)
+		(mid 5.153553 -1.353553)
+		(end 5.3 -1)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -206,9 +177,9 @@
 		(uuid "678fbda2-8d0b-4e11-92bb-9020780d0516")
 	)
 	(fp_arc
-		(start 5.1 1)
-		(mid 4.953553 1.353553)
-		(end 4.6 1.5)
+		(start 5.3 1)
+		(mid 5.153553 1.353553)
+		(end 4.8 1.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -240,28 +211,28 @@
 		)
 	)
 	(pad "" np_thru_hole circle
-		(at -4.8 3.8 180)
-		(size 1.8 1.8)
+		(at -4.5 3.6 180)
+		(size 1.7 1.7)
 		(drill 1.85)
 		(layers "F&B.Cu")
 		(uuid "9e4d0d62-4967-401a-8d5c-bbcd08984d2a")
 	)
 	(pad "" np_thru_hole circle
 		(at 0 0 90)
-		(size 4.9 4.9)
+		(size 4.8 4.8)
 		(drill 4.9)
 		(layers "F&B.Cu")
 		(uuid "e3a78663-3d90-41d2-a626-189e029c7f34")
 	)
 	(pad "" np_thru_hole circle
-		(at 4.8 -3.8 180)
-		(size 1.8 1.8)
+		(at 4.5 -3.6 180)
+		(size 1.7 1.7)
 		(drill 1.85)
 		(layers "F&B.Cu")
 		(uuid "9693ab6d-6837-447b-817e-efbea6a70cbb")
 	)
 	(pad "1" thru_hole oval
-		(at 0 -5.9)
+		(at 0 -5.8)
 		(size 2.2 1.6)
 		(drill oval 1 0.5)
 		(layers "*.Cu" "B.Mask")
