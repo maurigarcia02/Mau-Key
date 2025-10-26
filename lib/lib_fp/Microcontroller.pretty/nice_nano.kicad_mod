@@ -524,7 +524,7 @@
 		(uuid "c9357072-8b50-4d5b-b7fc-b7d1c7c3baa3")
 	)
 	(pad "27" thru_hole circle
-		(at -5.08 22.86 270)
+		(at -5.08 25.4 270)
 		(size 1.7526 1.7526)
 		(drill 1.0922)
 		(layers "*.Cu" "*.SilkS" "*.Mask")
@@ -532,7 +532,7 @@
 		(uuid "c6186ace-aaf7-41b6-875b-7a85756bf766")
 	)
 	(pad "28" thru_hole circle
-		(at -2.54 22.86 270)
+		(at -2.54 25.4 270)
 		(size 1.7526 1.7526)
 		(drill 1.0922)
 		(layers "*.Cu" "*.SilkS" "*.Mask")
@@ -540,7 +540,7 @@
 		(uuid "9fbda781-ef58-4b27-a0f9-35c421d7677d")
 	)
 	(pad "29" thru_hole circle
-		(at 0 22.86 270)
+		(at 0 25.4 270)
 		(size 1.7526 1.7526)
 		(drill 1.0922)
 		(layers "*.Cu" "*.SilkS" "*.Mask")
