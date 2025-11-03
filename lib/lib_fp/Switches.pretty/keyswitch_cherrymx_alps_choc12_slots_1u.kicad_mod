@@ -7,7 +7,7 @@
 		(at 5.334 -4.445 180)
 		(layer "Dwgs.User")
 		(hide yes)
-		(uuid "acebcbf0-b6aa-46b5-9b4a-8de391dd9b55")
+		(uuid "17123536-579f-4089-9746-cbad0035f979")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at -0.07 8.17 180)
 		(layer "Dwgs.User")
 		(hide yes)
-		(uuid "861e630b-521d-4f9b-8f22-664da8ced52c")
+		(uuid "951399e6-fd31-44ab-9344-7d95f3e0799f")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "475c8b51-65d4-441b-99f4-11a6b2618548")
+		(uuid "edea170a-d07e-48d8-a1b4-b064fbd5b0d7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9de1c179-1f8d-4488-a50c-52894490314e")
+		(uuid "796068d4-ce06-4260-8326-635e25e55ea2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -111,7 +111,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "6402ccc7-3091-4ade-8476-6f31ee1ffca8")
+		(uuid "80174fbb-4e45-4a8f-a8a7-863759791535")
 	)
 	(fp_line
 		(start 4.8 -1.5)
@@ -121,17 +121,17 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "5ce93517-f727-4bf4-bdd2-fff6517b433b")
+		(uuid "b2801c5a-918c-4cc6-b765-d020fdeedec9")
 	)
 	(fp_line
 		(start 4.8 1.5)
 		(end -4.8 1.499999)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "8d9a835f-9910-4b77-8752-6d081117d678")
+		(uuid "f724bed6-0dfa-47f9-bf28-c6cf821615b1")
 	)
 	(fp_line
 		(start 5.3 -1)
@@ -141,7 +141,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "23f68c72-8c3f-4d49-b043-c105d7fb1392")
+		(uuid "faaa0d48-f663-42ae-85f8-cd2de5983c56")
 	)
 	(fp_arc
 		(start -5.3 -1)
@@ -152,7 +152,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "7ba66c22-0691-43f6-87a1-73b390e923fe")
+		(uuid "d1be4eab-7c58-409c-bb3f-21c6d96a1b71")
 	)
 	(fp_arc
 		(start -4.800001 1.500001)
@@ -163,7 +163,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "8de49d9b-7972-409e-baa9-9ab7d60d4cdb")
+		(uuid "0e53a6ab-5306-4f4c-b06b-02606d499026")
 	)
 	(fp_arc
 		(start 4.8 -1.5)
@@ -174,7 +174,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "678fbda2-8d0b-4e11-92bb-9020780d0516")
+		(uuid "0b1352a5-27e6-4d90-b010-2df782907dfe")
 	)
 	(fp_arc
 		(start 5.3 1)
@@ -185,7 +185,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "a15ad50f-dc26-4ea9-8299-7b2ba345c954")
+		(uuid "8633632c-79c2-45a6-a258-b556296897af")
 	)
 	(fp_text user "${VALUE}"
 		(at 0 8.255 0)
@@ -219,7 +219,7 @@
 	)
 	(pad "" np_thru_hole circle
 		(at 0 0 90)
-		(size 4.8 4.8)
+		(size 3 3)
 		(drill 4.9)
 		(layers "F&B.Cu")
 		(uuid "e3a78663-3d90-41d2-a626-189e029c7f34")
